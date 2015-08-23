@@ -1,4 +1,4 @@
-# hubot-counter
+# hubot-counter [![Build Status](https://travis-ci.org/tenfourty/hubot-counter.png)](https://travis-ci.org/tenfourty/hubot-counter)
 
 This script allows hubot to count whenever you ++ or -- something, for example:
 ```
