@@ -1,6 +1,20 @@
 # hubot-counter
 
-This script allows hubot to count whenever you ++ or -- something
+This script allows hubot to count whenever you ++ or -- something, for example:
+```
+user1>> My coffee++ just woke me up!
+hubot>> coffee: 1
+user1>> meetings--
+hubot>> meetings: -1
+```
+
+Commands:
+  hubot get count <item> - get the current count of <item> you can increment with item++ and decrement with item--
+
+```
+user1>> hubot get count coffee
+hubot>> coffee: 1!
+```
 
 See [`src/counter.coffee`](src/counter.coffee) for full documentation.
 
@@ -21,6 +35,10 @@ Then add **hubot-counter** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
+user1>> My coffee++ just woke me up!
+hubot>> coffee: 1
+user1>> meetings--
+hubot>> meetings: -1
+user1>> hubot get count coffee
+hubot>> coffee: 1!
 ```
