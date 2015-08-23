@@ -1,7 +1,7 @@
 {
   "name": "hubot-counter",
   "description": "This script allows hubot to count whenever you ++ or -- something",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Jeremy Brown <jeremy@tenfourty.com>",
   "license": "MIT",
 
@@ -9,11 +9,11 @@
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-counter.git"
+    "url": "git://github.com/tenfourty/hubot-counter.git"
   },
 
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-counter/issues"
+    "url": "https://github.com/tenfourty/hubot-counter/issues"
   },
 
   "dependencies": {
