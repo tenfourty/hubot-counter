@@ -1,5 +1,9 @@
 # hubot-counter [![Build Status](https://travis-ci.org/tenfourty/hubot-counter.png)](https://travis-ci.org/tenfourty/hubot-counter)
 
+**deprecated in favour of hubot-plusplus**
+- [npm](https://www.npmjs.com/package/hubot-plusplus)
+- [github](https://github.com/ajacksified/hubot-plusplus)
+
 This script allows hubot to count whenever you ++ or -- something, for example:
 ```
 user1>> My coffee++ just woke me up!
